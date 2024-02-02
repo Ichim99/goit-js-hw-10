@@ -7,15 +7,15 @@ body {
         Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #30E3CA;
-    color: #40514E;
+    background-color: #D0C9C0;
+    color: #5F7161;
     line-height: 1.5;
 }
 
 img {
     display: flex;
     max-width: 100%;
-    border: 1px solid #0d161b;
+    border: 2px solid #5F7161;
 }
 
 h1 {
@@ -65,7 +65,7 @@ h1 {
     animation: animloader 1s infinite ease-in-out;
   }
   .loader::before {
-    background-color: #FF3D00;
+    background-color: #5F7161;
     transform: scale(0.5) translate(-48px, -48px);
   }
   
@@ -88,13 +88,14 @@ h1 {
 
 .cat-info {
     margin-top: 20px;
+  
     padding: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-    background-color: #30E3CA;
-    border: 4px solid #40514E;
+    background-color: #D0C9C0;
+    border: 4px solid #5F7161;
     border-radius: 15px;
     
 }
