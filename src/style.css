@@ -81,10 +81,7 @@ h1 {
       50% {
         transform: scale(1) translate(-50%, -50%);
   }
-  }
-      
-    
-  
+}
 
 .cat-info {
     margin-top: 20px;
@@ -95,9 +92,6 @@ h1 {
     flex-wrap: wrap;
     gap: 40px;
     background-color: #D0C9C0;
-    border: 4px solid #5F7161;
-    border-radius: 15px;
-    
 }
 
 .box-img img{
